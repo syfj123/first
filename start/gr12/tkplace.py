@@ -1,0 +1,20 @@
+import tkinter as tk
+root = tk.Tk()
+L1 = tk.Label(root, text="Physics")
+L1.place(x=10,y=10)
+E1 = tk.Entry(root, bd =5)
+E1.place(x=60,y=10)
+L2=tk.Label(root,text="Maths")
+L2.place(x=10,y=50)
+E2=tk.Entry(root,bd=5)
+E2.place(x=60,y=50)
+
+L3=tk.Label(root,text="Total")
+L3.place(x=10,y=200)
+E3=tk.Entry(root,bd=5)
+E3.place(x=60,y=200)
+
+B = tk.Button(root, text ="Add")
+B.place(x=100, y=100)
+root.geometry("250x250+10+10")
+root.mainloop()
